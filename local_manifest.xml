@@ -7,20 +7,20 @@
         fetch="https://gitlab.com" />
    
 <!-- Trees --> 
-        <project path="device/xiaomi/onyx" name="BlissRoms-Devices/android_device_xiaomi_onyx" remote="onyx" revision="xylobium" />
-        <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-24.0" />
-        <project path="kernel/xiaomi/sm8735" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735" remote="onyx" revision="lineage-23.2" /> 
-        <project path="kernel/xiaomi/sm8735-modules" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-modules" remote="onyx" revision="lineage-23.2" /> 
-        <project path="kernel/xiaomi/sm8735-devicetrees" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-devicetrees" remote="onyx" revision="lineage-23.2" /> 
-        <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="onyx" revision="onyx" />
-        <project path="packages/apps/GameBar" name="poco-f7-onyx/packages_apps_GameBar" remote="onyx" revision="lineage-24.0" />
-        <project path="packages/apps/LunarisDolby" name="poco-f7-onyx/packages_apps_LunarisDolby" remote="onyx" revision="16.0" /> 
-        <project path="packages/apps/NotGameTurbo" name="poco-f7-onyx/android_packages_apps_NotGameTurbo" remote="onyx" revision="lineage-23.2" /> 
-        <project path="device/xiaomi/onyx-miuicamera" name="poco-f7-onyx/android_device_xiaomi_onyx-miuicamera" remote="onyx" revision="lineage-24.0" />
-        <project path="vendor/xiaomi/onyx-miuicamera" name="onyx-vendor/proprietary_vendor_xiaomi_onyx-miuicamera" remote="romgharti" revision="sixteen-qpr2" />
+<project path="device/xiaomi/onyx" name="BlissRoms-Devices/android_device_xiaomi_onyx" remote="onyx" revision="xylobium" />
+<project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-24.0" />
+<project path="kernel/xiaomi/sm8735" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735" remote="onyx" revision="lineage-23.2" /> 
+<project path="kernel/xiaomi/sm8735-modules" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-modules" remote="onyx" revision="lineage-23.2" /> 
+<project path="kernel/xiaomi/sm8735-devicetrees" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-devicetrees" remote="onyx" revision="lineage-23.2" /> 
+<project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="onyx" revision="onyx" />
+<project path="packages/apps/GameBar" name="poco-f7-onyx/packages_apps_GameBar" remote="onyx" revision="lineage-24.0" />
+<project path="packages/apps/LunarisDolby" name="poco-f7-onyx/packages_apps_LunarisDolby" remote="onyx" revision="16.0" /> 
+<project path="packages/apps/NotGameTurbo" name="poco-f7-onyx/android_packages_apps_NotGameTurbo" remote="onyx" revision="lineage-23.2" /> 
+<project path="device/xiaomi/onyx-miuicamera" name="poco-f7-onyx/android_device_xiaomi_onyx-miuicamera" remote="onyx" revision="lineage-24.0" />
+<project path="vendor/xiaomi/onyx-miuicamera" name="onyx-vendor/proprietary_vendor_xiaomi_onyx-miuicamera" remote="romgharti" revision="sixteen-qpr2" />
 
-        <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
-        <project path="hardware/qcom-caf/sm8750/audio/pal" name="poco-f7-onyx/android_vendor_qcom_opensource_arpal-lx" remote="onyx" revision="lineage-24.0-caf-sm8750" /> 
-        <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
-        <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="poco-f7-onyx/android_hardware_qcom_audio-ar" remote="onyx" revision="lineage-24.0-caf-sm8750" /> 
+<remove-project path="hardware/qcom-caf/sm8750/audio/pal" />
+<project path="hardware/qcom-caf/sm8750/audio/pal" name="poco-f7-onyx/android_vendor_qcom_opensource_arpal-lx" remote="onyx" revision="lineage-24.0-caf-sm8750" /> 
+<remove-project path="hardware/qcom-caf/sm8750/audio/primary-hal" />
+<project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="poco-f7-onyx/android_hardware_qcom_audio-ar" remote="onyx" revision="lineage-24.0-caf-sm8750" /> 
 </manifest>
