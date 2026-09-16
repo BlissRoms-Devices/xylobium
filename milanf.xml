@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="githubssh"
+        fetch="ssh://git@github.com/" />
+
+    <!-- Hardware -->
+    <project path="hardware/motorola"
+        name="LineageOS/android_hardware_motorola"
+        remote="githubssh"
+        revision="lineage-24.0" />
+
+    <!-- Device tree -->
+    <project path="device/motorola/milanf"
+        name="BOBtheBlinker/android_device_motorola_milanf"
+        remote="githubssh"
+        revision="blissrom-20.0" />
+    <project path="device/motorola/sm6375-common"
+        name="BOBtheBlinker/android_device_motorola_sm6375-common"
+        remote="githubssh"
+        revision="blissrom-20.0" />
+
+    <!-- Kernel tree -->
+    <project path="kernel/motorola/sm6375"
+        name="LineageOS/android_kernel_motorola_sm6375"
+        remote="githubssh"
+        revision="lineage-24.0" />
+
+    <!-- Vendor trees -->
+    <project path="vendor/motorola/milanf"
+        name="TheMuppets/proprietary_vendor_motorola_milanf"
+        remote="githubssh"
+        revision="lineage-24.0" />
+    <project path="vendor/motorola/sm6375-common"
+        name="TheMuppets/proprietary_vendor_motorola_sm6375-common"
+        remote="githubssh"
+        revision="lineage-24.0" />
+</manifest>
