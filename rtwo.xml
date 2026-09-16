@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="githubssh"
+        fetch="ssh://git@github.com/" />
+
+    <!-- Hardware  -->
+    <project path="hardware/motorola"
+        name="LineageOS/android_hardware_motorola"
+        remote="githubssh"
+        revision="lineage-24.0" />
+    <!-- Device trees -->
+
+    <project path="device/motorola/rtwo"
+        name="BOBtheBlinker/android_device_motorola_rtwo"
+        remote="githubssh"
+        revision="blissrom-20.0" />
+    <project path="device/motorola/sm8550-common"
+        name="BOBtheBlinker/android_device_motorola_sm8550-common"
+        remote="githubssh"
+        revision="blissrom-20.0" />
+
+    <!-- Kernel trees -->
+    <project path="kernel/motorola/sm8550"
+        name="LineageOS/android_kernel_motorola_sm8550"
+        remote="githubssh"
+        revision="lineage-24.0" />
+    <project path="kernel/motorola/sm8550-devicetrees"
+        name="LineageOS/android_kernel_motorola_sm8550-devicetrees"
+        remote="githubssh"
+        revision="lineage-24.0" />
+    <project path="kernel/motorola/sm8550-modules"
+        name="LineageOS/android_kernel_motorola_sm8550-modules"
+        remote="githubssh"
+        revision="lineage-24.0" />
+
+    <!-- Vendor trees -->
+    <project path="vendor/motorola/rtwo"
+        name="TheMuppets/proprietary_vendor_motorola_rtwo"
+        remote="githubssh"
+        revision="lineage-24.0" />
+    <project path="vendor/motorola/sm8550-common"
+        name="TheMuppets/proprietary_vendor_motorola_sm8550-common"
+        remote="githubssh"
+        revision="lineage-24.0" />
+</manifest>
