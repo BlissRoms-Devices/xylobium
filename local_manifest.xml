@@ -11,7 +11,7 @@
    <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-24.0" />
    <project path="kernel/xiaomi/sm8735" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735" remote="onyx" revision="lineage-23.2" /> 
    <project path="kernel/xiaomi/sm8735-modules" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-modules" remote="onyx" revision="lineage-23.2" /> 
-   <project path="kernel/xiaomi/sm8735-devicetrees" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-devicetrees" remote="onyx" revision="lineage-23.2" /> 
+   <project path="kernel/xiaomi/sm8735-devicetrees" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-devicetrees" remote="onyx" revision="lineage-24.0" /> 
    <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="onyx" revision="onyx" />
    <project path="packages/apps/GameBar" name="poco-f7-onyx/packages_apps_GameBar" remote="onyx" revision="lineage-24.0" />
    <project path="packages/apps/LunarisDolby" name="poco-f7-onyx/packages_apps_LunarisDolby" remote="onyx" revision="16.0" /> 
