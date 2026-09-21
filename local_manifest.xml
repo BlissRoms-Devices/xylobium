@@ -23,6 +23,6 @@
    <remove-project path="hardware/qcom-caf/sm8750/audio/primary-hal" />
    <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="poco-f7-onyx/android_hardware_qcom_audio-ar" remote="onyx" revision="lineage-24.0-caf-sm8750" /> 
    <remove-project path="vendor/bliss" />
-   <project path="vendor/bliss" name="BlissRoms/platform_vendor_bliss" remote="onyx" revision="xylobium" /> 
+   <project path="vendor/bliss" name="romgharti/platform_vendor_bliss" remote="onyx" revision="xylobium" /> 
 
 </manifest>
