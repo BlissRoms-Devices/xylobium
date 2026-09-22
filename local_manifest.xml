@@ -5,9 +5,7 @@
         fetch="https://github.com" />   
 <remote name="romgharti"  
         fetch="https://gitlab.com" />
-   
-   <remove-project path="packages/apps/LunarisDolby" />
-   
+     
    <!-- Trees --> 
    <project path="device/xiaomi/onyx" name="BlissRoms-Devices/android_device_xiaomi_onyx" remote="onyx" revision="xylobium" />
    <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-24.0" />
