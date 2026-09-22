@@ -6,7 +6,6 @@
 <remote name="romgharti"  
         fetch="https://gitlab.com" />
    
-   <remove-project path="packages/apps/DolbyUI" />
    <remove-project path="packages/apps/LunarisDolby" />
    
    <!-- Trees --> 
