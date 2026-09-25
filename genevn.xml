@@ -21,8 +21,8 @@
           sync-tags="false" />
 
 <!-- genevn_yume Trees -->
-  <project path="device/motorola/genevn" remote="los" name="android_device_motorola_genevn" revision="lineage-24.0" />
-  <project path="device/motorola/sm7435-common" remote="los" name="android_device_motorola_sm7435-common" revision="lineage-24.0" />
+  <project path="device/motorola/genevn" remote="bcrichster" name="android_device_motorola_genevn" revision="lineage-24.0" />
+  <project path="device/motorola/sm7435-common" remote="bcrichster" name="android_device_motorola_sm7435-common" revision="lineage-24.0" />
   <project path="hardware/motorola" remote="los" name="android_hardware_motorola" revision="lineage-24.0" />
   <project path="kernel/motorola/sm7435" remote="los" name="android_kernel_motorola_sm7435" revision="lineage-24.0" />
   <project path="kernel/motorola/sm7435-modules" remote="los" name="android_kernel_motorola_sm7435-modules" revision="lineage-24.0" />
