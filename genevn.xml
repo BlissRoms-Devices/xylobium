@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="los"
+          fetch="https://github.com/LineageOS/" />
+  <remote name="bcrichster"
+          fetch="https://github.com/Bcrichster/" />
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+  <remote name="PizzaG-github"
+          fetch="https://github.com/PizzaG/" />
+  <remote name="muppets"
+          fetch="https://github.com/TheMuppets/" />
+  <remote name="bob"
+          fetch="https://github.com/BobTheBlinker/" /> 
+  <remote name="clang"
+          fetch="https://gitlab.com/BCRichster/android_prebuilts_clang_host_linux-x86/" />
+<!-- CLO -->
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org/clo/la/"
+          sync-c="true"
+          sync-tags="false" />
+
+<!-- genevn_yume Trees -->
+  <project path="device/motorola/genevn" remote="los" name="android_device_motorola_genevn" revision="lineage-24.0" />
+  <project path="device/motorola/sm7435-common" remote="los" name="android_device_motorola_sm7435-common" revision="lineage-24.0" />
+  <project path="hardware/motorola" remote="los" name="android_hardware_motorola" revision="lineage-24.0" />
+  <project path="kernel/motorola/sm7435" remote="los" name="android_kernel_motorola_sm7435" revision="lineage-24.0" />
+  <project path="kernel/motorola/sm7435-modules" remote="los" name="android_kernel_motorola_sm7435-modules" revision="lineage-24.0" />
+  <project path="kernel/motorola/sm7435-devicetrees" remote="los" name="android_kernel_motorola_sm7435-devicetrees" revision="lineage-24.0" />
+  <project path="vendor/motorola/genevn" remote="muppets" name="proprietary_vendor_motorola_genevn" revision="lineage-24.0" />
+  <project path="vendor/motorola/sm7435-common" remote="muppets" name="proprietary_vendor_motorola_sm7435-common" revision="lineage-24.0" />
+
+ </manifest>
