@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           sync-c="true"
+           sync-j="4"
+           fetch="https://gitlab.com" />
+
+<project path="device/xiaomi/raphael" name="android_device_xiaomi_raphael" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="device/xiaomi/sm8150-common" name="android_device_xiaomi_sm8150-common" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="kernel/xiaomi/sm8150" name="ralf979/android_kernel_xiaomi_sm8150" revision="xylobium" />
+<project path="hardware/xiaomi" name="hardware_xiaomi" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="hardware/dolby" name="oscaro-resources/hardware_dolby" revision="lunaris-dolby" />
+<project path="vendor/xiaomi/sm8150-common" name="android_vendor_xiaomi_sm8150-common" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="vendor/xiaomi/raphael" name="android_vendor_xiaomi_raphael" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="vendor/xiaomi/miuicamera" name="bulla0x/leica_camera" revision="leica_a15" />
+
+</manifest>
