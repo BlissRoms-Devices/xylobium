@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="githubssh"
-           fetch="ssh://git@github.com/" />
-
+  
   <remove-project name="platform_frameworks_base" />
   <remove-project name="platform_frameworks_native" />
   <remove-project name="LineageOS/android_system_fs_fs_mgr" />
   <remove-project name="platform_system_core" />
   <remove-project name="platform_packages_apps_Aperture" />
 
-  <project path="device/nothing/Tetris"  name="StudioKeys-Dumps/android_device_nothing_Tetris" remote="githubssh" revision="xylobium" />
-  <project path="device/nothing/Tetris-kernel" name="StudioKeys-Dumps/android_device_nothing_Tetris-kernel" remote="githubssh" revision="a16" />
-  <project path="vendor/nothing/Tetris" name="StudioKeys-Dumps/vendor_nothing_Tetris" remote="githubssh" revision="xylobium" />
+  <project path="device/nothing/Tetris"  name="CMF-Phone-1/android_device_nothing_Tetris" remote="github" revision="xylobium" />
+  <project path="device/nothing/Tetris-kernel" name="CMF-Phone-1/android_device_nothing_Tetris-kernel" remote="github" revision="a17" />
+  <project path="vendor/nothing/Tetris" name="CMF-Phone-1/proprietary_vendor_nothing_Tetris" remote="github" revision="xylobium" />
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-24.0" />
   <project path="device/mediatek/sepolicy_vndr" name="sreelekshman/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-24.0" />
   <project path="frameworks/base" name="sreelekshman/platform_frameworks_base" remote="github" revision="xylobium" />
