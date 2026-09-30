@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/panther" remote="github" name="LineageOS/android_device_google_panther" />
+  <project path="device/google/pantah" remote="github" name="BlissRoms-Devices/android_device_google_pantah" revision="xylobium" />
+  <project path="device/google/gs201" remote="github" name="BlissRoms-Devices/android_device_google_gs201" revision="xylobium" />
+  <project path="device/google/pantah-kernels" remote="github" name="LineageOS/android_device_google_pantah-kernels" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" />
+  <project name="BlissRoms-Devices/proprietary_vendor_google_panther" path="vendor/google/panther" groups="muppets,muppets_panther" revision="xylobium" />
+</manifest>
