@@ -17,6 +17,6 @@
         <project path="vendor/xiaomi/cupid" name="proprietary_vendor_xiaomi_cupid" remote="n0201" revision="lineage-23.2" />
 
         <remove-project path="vendor/bliss" />
-        <project path="vendor/bliss" name="romgharti/platform_vendor_bliss" remote="onyx" revision="xylobium" /> 
+        <project path="vendor/bliss" name="platform_vendor_bliss" remote="n0201" revision="xylobium" /> 
 
         </manifest>
