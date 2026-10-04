@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   
+
+<!-- Trees --> 
+<project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" remote="BlissRoms-Devices" revision="xylobium" />
+   
+<project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" remote="BlissRoms-Devices" revision="xylobium" />
+   
+<project path="kernel/xiaomi/sm6250" name="android_kernel_xiaomi_sm6250" remote="BlissRoms-Devices" revision="xylobium" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="BlissRoms-Devices" revision="xylobium" />
+
+<project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-24.0" />
+
+
+</manifest>
