@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <remove-project name="platform_frameworks_av" />
+  
+  <project path="device/xiaomi/pipa"  name="sreelekshman/android_device_xiaomi_pipa" remote="github" revision="xylobium" />
+  <project path="kernel/xiaomi/sm8250" name="sreelekshman/kernel_xiaomi_sm8250" remote="github" revision="17" />
+  <project path="vendor/xiaomi/pipa" name="sreelekshman/vendor_xiaomi_pipa" remote="gitlab" revision="xylobium" />
+  <project path="hardware/xiaomi" name="sreelekshman/hardware_xiaomi" remote="github" revision="xylobium" />
+  <project path="hardware/dolby" name="sreelekshman/hardware_dolby" remote="github" revision="Dolby-Vision-2.4" />
+  <project path="packages/apps/DolbyUI" name="swiitch-OFF-Lab/packages_apps_DolbyUI" remote="github" revision="a" />
+  <project path="frameworks/av" name="sreelekshman/platform_frameworks_av" remote="github" revision="xylobium" />
+  
+</manifest>
