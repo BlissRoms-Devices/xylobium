@@ -12,6 +12,6 @@
   <project path="vendor/asus/I001D" name="StudioKeys-Dumps/vendor_asus_I001D" remote="githubssh" revision="xylobium" />
   <project path="vendor/asus/sm8150-common" name="StudioKeys-Dumps/vendor_asus_sm8150-common" remote="githubssh" revision="xylobium" />  
 
-  <project path="hardware/qcom-caf/common" name="BlissRoms/platform_hardware_qcom-caf_common" groups="qcom" remote="githubssh" revision="xylobium" />
+  <project path="hardware/qcom-caf/common" name="BlissRoms/platform_hardware_qcom-caf_common" remote="githubssh" revision="xylobium" />
   
 </manifest>
