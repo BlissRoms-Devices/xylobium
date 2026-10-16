@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="githubssh"
+           fetch="ssh://git@github.com/" />
+
+  <project path="device/oneplus/iceland" name="StudioKeys-Dumps/device_oneplus_iceland" remote="githubssh" revision="xylobium" />
+  <project path="device/oneplus/sm8850-common" name="StudioKeys-Dumps/device_oneplus_sm8850-common" remote="githubssh" revision="xylobium" />
+  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850" name="LineageOS/android_kernel_oneplus_sm8850" remote="githubssh" revision="lineage-24.0" />
+  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees" name="LineageOS/android_kernel_oneplus_sm8850-devicetrees" remote="githubssh" revision="lineage-24.0" />
+  <project path="kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules" name="LineageOS/android_kernel_oneplus_sm8850-modules" remote="githubssh" revision="lineage-24.0" />
+  <project path="vendor/oneplus/iceland" name="TheMuppets/proprietary_vendor_oneplus_iceland" remote="githubssh" revision="lineage-24.0" />
+  <project path="vendor/oneplus/sm8850-common" name="TheMuppets/proprietary_vendor_oneplus_sm8850-common" remote="githubssh" revision="lineage-24.0" />
+  <project path="hardware/oplus" name="StudioKeys-Dumps/hardware_oplus" remote="githubssh" revision="xylobium" />
+  
+</manifest>
