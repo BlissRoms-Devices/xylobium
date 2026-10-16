@@ -16,4 +16,7 @@
         <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="n0201" revision="lineage-24.0" />
         <project path="vendor/xiaomi/cupid" name="proprietary_vendor_xiaomi_cupid" remote="n0201" revision="lineage-24.0" />
 
+        <remove-project path="vendor/bliss" />
+        <project path="vendor/bliss" name="platform_vendor_bliss" remote="n0201" revision="xylobium" />
+
         </manifest>
