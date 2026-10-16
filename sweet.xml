@@ -9,7 +9,7 @@
     <project path="vendor/xiaomi/sm6150-common" name="RaiMaru24/blissroms_vendor_xiaomi_sm6150-common" remote="githubssh" revision="xylobium" />
     <project path="vendor/xiaomi/sweet" name="RaiMaru24/blissroms_vendor_xiaomi_sweet" remote="githubssh" revision="xylobium" />
     <project path="kernel/xiaomi/sm6150" name="RaiMaru24/blissroms_kernel_xiaomi_sm6150" remote="githubssh" revision="17.0" />
-    <project path="vendor/xiaomi/miuicamera-sweet" name="RaiMaru24/vendor_miuicamera-sweet" remote="githubssh" revision="17.0" />
+    <project path="vendor/miuicamera-sweet" name="RaiMaru24/vendor_miuicamera-sweet" remote="githubssh" revision="17.0" />
     <project path="packages/apps/DolbyUI" name="swiitch-OFF-Lab/packages_apps_DolbyUI" remote="githubssh" revision="aa" />
     <project path="hardware/dolby" name="swiitch-OFF-Lab/hardware_dolby" remote="githubssh" revision="sony-A17" />  
 </manifest>
