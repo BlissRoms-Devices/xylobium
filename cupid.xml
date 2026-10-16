@@ -7,14 +7,14 @@
         <remote name="onyx"
         fetch="https://github.com" /> 
 
-        <project path="device/xiaomi/cupid" name="android_device_xiaomi_cupid" remote="n0201" revision="lineage-23.2" />
-        <project path="device/xiaomi/sm8450-common" name="android_device_xiaomi_sm8450-common" remote="n0201" revision="lineage-23.2" />
-        <project path="kernel/xiaomi/sm8450" name="android_kernel_xiaomi_sm8450" remote="n0201" revision="lineage-23.2" />
-        <project path="kernel/xiaomi/sm8450-devicetrees" name="android_kernel_xiaomi_sm8450-devicetrees" remote="n0201" revision="lineage-23.2" />
-        <project path="kernel/xiaomi/sm8450-modules" name="android_kernel_xiaomi_sm8450-modules" remote="n0201" revision="lineage-23.2" />
+        <project path="device/xiaomi/cupid" name="android_device_xiaomi_cupid" remote="n0201" revision="lineage-24.0" />
+        <project path="device/xiaomi/sm8450-common" name="android_device_xiaomi_sm8450-common" remote="n0201" revision="lineage-24.0" />
+        <project path="kernel/xiaomi/sm8450" name="android_kernel_xiaomi_sm8450" remote="n0201" revision="lineage-24.0" />
+        <project path="kernel/xiaomi/sm8450-devicetrees" name="android_kernel_xiaomi_sm8450-devicetrees" remote="n0201" revision="lineage-24.0" />
+        <project path="kernel/xiaomi/sm8450-modules" name="android_kernel_xiaomi_sm8450-modules" remote="n0201" revision="lineage-24.0" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="n0201" revision="lineage-24.0" />
-        <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="n0201" revision="lineage-23.2" />
-        <project path="vendor/xiaomi/cupid" name="proprietary_vendor_xiaomi_cupid" remote="n0201" revision="lineage-23.2" />
+        <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="n0201" revision="lineage-24.0" />
+        <project path="vendor/xiaomi/cupid" name="proprietary_vendor_xiaomi_cupid" remote="n0201" revision="lineage-24.0" />
 
         <remove-project path="vendor/bliss" />
         <project path="vendor/bliss" name="platform_vendor_bliss" remote="n0201" revision="xylobium" /> 
