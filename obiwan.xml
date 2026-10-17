@@ -10,7 +10,7 @@
   <project path="kernel/asus/sm8250" name="StudioKeys-Dumps/kernel_asus_sm8250" remote="githubssh" revision="xylobium" />
   <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="xylobium" />
   <project path="hardware/asus" name="StudioKeys-Dumps/hardware_asus" remote="githubssh" revision="xylobium" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="StudioKeys-Dumps/hardware_qcom-caf_sm8250_audio" remote="githubssh" revision="lineage-23.2-caf-sm8250" />
-  <project path="vendor/qcom/opensource/usb" name="StudioKeys-Dumps/vendor_qcom_opensource_usb" remote="githubssh" revision="lineage-24.0" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="StudioKeys-Dumps/hardware_qcom-caf_sm8250_audio" remote="githubssh" revision="xylobium" />
+  <project path="vendor/qcom/opensource/usb" name="StudioKeys-Dumps/vendor_qcom_opensource_usb" remote="githubssh" revision="xylobium" />
   
 </manifest>
