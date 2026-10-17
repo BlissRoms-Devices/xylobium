@@ -15,8 +15,7 @@
    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="onyx" revision="lineage-24.0" />
    <project path="packages/apps/LunarisDolby" name="poco-f7-onyx/packages_apps_LunarisDolby" remote="onyx" revision="16.0" /> 
    <project path="packages/apps/NotGameTurbo" name="poco-f7-onyx/android_packages_apps_NotGameTurbo" remote="onyx" revision="lineage-23.2" /> 
-   <project path="device/xiaomi/onyx-miuicamera" name="poco-f7-onyx/android_device_xiaomi_onyx-miuicamera" remote="onyx" revision="lineage-24.0" />
-   <project path="vendor/xiaomi/onyx-miuicamera" name="onyx-vendor/proprietary_vendor_xiaomi_onyx-miuicamera" remote="romgharti" revision="sixteen-qpr2" />
+   <project path="vendor/xiaomi/onyx-leicacamera" name="romgharti/android_vendor_xiaomi_onyx-leicacamera" remote="romgharti" revision="lineage-24.0" />
 
    <remove-project path="hardware/qcom-caf/sm8750/audio/pal" />
    <project path="hardware/qcom-caf/sm8750/audio/pal" name="poco-f7-onyx/android_vendor_qcom_opensource_arpal-lx" remote="onyx" revision="lineage-24.0-caf-sm8750" /> 
