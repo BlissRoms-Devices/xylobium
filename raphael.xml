@@ -13,6 +13,6 @@
 <project path="hardware/dolby" name="oscaro-resources/hardware_dolby" revision="lunaris-dolby" />
 <project path="vendor/xiaomi/sm8150-common" name="android_vendor_xiaomi_sm8150-common" remote="BlissRoms-Devices" revision="xylobium" />
 <project path="vendor/xiaomi/raphael" name="android_vendor_xiaomi_raphael" remote="BlissRoms-Devices" revision="xylobium" />
-<project path="vendor/xiaomi/miuicamera" name="bulla0x/leica_camera" revision="leica_a15" />
+<project path="vendor/xiaomi/miuicamera" name="ralf979/vendor_xiaomi_miuicamera" remote="gitlab" revision="xylobium" />
 
 </manifest>
