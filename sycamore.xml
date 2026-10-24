@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="githubssh" fetch="ssh://git@github.com/" />
+
+  <!-- Sycamore device trees -->
+  <project path="device/motorola/sycamore_row_5G" name="BobTheBlinker/android_device_motorola_sycamore-row-5G"
+      remote="githubssh" revision="blissrom-20.1">
+      <copyfile src="kernel/scmversion" dest="kernel/google/gki-5.15/.scmversion" />
+  </project>
+  <project path="device/motorola/mt6835-common" name="BobTheBlinker/android_device_motorola_mt6835-common"
+      remote="githubssh" revision="blissrom-20.1" />
+
+  <!-- Sycamore kernel source -->
+  <project path="kernel/motorola/mt6835" name="BobTheBlinker/android_kernel_motorola_mt6835"
+      remote="githubssh" revision="blissrom-20.1" />
+  <!-- MediaTek vendor kernel modules -->
+  <project path="vendor/mediatek/kernel_modules" name="BobTheBlinker/android_kernel_motorola_mt6835-modules"
+      remote="githubssh" revision="blissrom-20.1" />
+  <!-- Google GKI kernel source (stock ab/14024729) -->
+  <project path="kernel/google/gki-5.15" name="kernel/common" remote="aosp"
+      revision="051a97cf151ab621acd9bc5e12faaec545b31d0d" upstream="android13-5.15-2025-07" clone-depth="1" />
+  <!-- Kernel toolchain at the stock build (clang r450784e, pahole v1.23) -->
+  <project path="prebuilts/clang/kernel/android13-5.15" name="platform/prebuilts/clang/host/linux-x86" remote="aosp"
+      revision="9f759dee5cdc5f85d076c642a192f6a9232f7058" upstream="android-gs-bluejay-5.10-android14" clone-depth="1">
+      <copyfile src="OWNERS" dest="prebuilts/clang/kernel/android13-5.15/.find-ignore" />
+  </project>
+  <project path="prebuilts/kernel-build-tools-android13" name="kernel/prebuilts/build-tools" remote="aosp"
+      revision="083e34d8c2c4239be4967172427268c267585951" upstream="android-gs-bluejay-5.10-android14" clone-depth="1" />
+
+  <!-- Vendor Trees -->
+  <project path="vendor/motorola/sycamore_row_5G" name="BobTheBlinker/android_vendor_motorola_sycamore-row-5G"
+      remote="githubssh" revision="blissrom-20.1" />
+  <project path="vendor/motorola/mt6835-common" name="BobTheBlinker/android_vendor_motorola_mt6835-common"
+      remote="githubssh" revision="blissrom-20.1" />
+
+  <!-- MediaTek Platforms -->
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek"
+      remote="githubssh" revision="lineage-24.0" />
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr"
+      remote="githubssh" revision="lineage-24.0" />
+</manifest>
