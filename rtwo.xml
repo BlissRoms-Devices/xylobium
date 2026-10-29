@@ -13,11 +13,11 @@
     <project path="device/motorola/rtwo"
         name="BOBtheBlinker/android_device_motorola_rtwo"
         remote="githubssh"
-        revision="blissrom-20.0" />
+        revision="blissrom-20.1" />
     <project path="device/motorola/sm8550-common"
         name="BOBtheBlinker/android_device_motorola_sm8550-common"
         remote="githubssh"
-        revision="blissrom-20.0" />
+        revision="blissrom-20.1" />
 
     <!-- Kernel trees -->
     <project path="kernel/motorola/sm8550"
