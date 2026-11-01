@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/barbet" remote="github" name="BlissRoms-Devices/android_device_google_barbet" revision="xylobium" />
+  <project path="device/google/redbull" remote="github" name="BlissRoms-Devices/android_device_google_redbull" revision="xylobium" />
+  <project path="kernel/google/redbull" remote="github" name="LineageOS/android_kernel_google_redbull" />
+  <project name="TheMuppets/proprietary_vendor_google_barbet" path="vendor/google/barbet" groups="muppets,muppets_barbet" revision="lineage-24.0" />
+</manifest>
